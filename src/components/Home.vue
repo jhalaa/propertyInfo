@@ -5,7 +5,7 @@
     <div class="container">
       <input type="text" class="text-field form-control" name="address" value="483 Bright Street"/>
       <input type="text" class="text-field form-control" name="pin" value="94132"/>
-      <button class="col-sm-offset-8 btn btn-blck btn-success"> Get Information</button>
+      <router-link to="/results"><button class="col-sm-offset-8 btn btn-blck btn-success"> Get Information</button></router-link>
     </div>
   </div>
 </template>

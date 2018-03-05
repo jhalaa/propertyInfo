@@ -1,25 +1,19 @@
 <template>
   <div>
-    <Header/>
     <Address/>
     <div class="row-md">
       <Tile  text="stats" class="col-md-4 col-md-offset-2"/>
       <Tile  text="eval" class="col-md-4 col-md-offset-2"/>
     </div>
-    <Footer/>
   </div>
 </template>
 
 <script type="text/javascript">
-import Header from './Header'
-import Footer from './Footer'
 import Address from './Address'
 import Tile from './Tile'
 import axios from 'axios'
 export default {
   components: {
-    Header,
-    Footer,
     Address,
     Tile
   },

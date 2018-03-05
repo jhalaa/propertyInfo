@@ -6,6 +6,6 @@ describe('Results.vue', () => {
     const Constructor = Vue.extend(Results)
     const vm = new Constructor().$mount()
     expect(vm.$el.children.length)
-      .to.equal(4)
+      .to.equal(2)
   })
 })
