@@ -23,7 +23,7 @@ export default {
       apiResponse: {}
     }
   },
-  mounted () {
+  created () {
     axios({
       method: 'GET',
       auth: {
@@ -65,6 +65,8 @@ header{
 }
 img {
   height: 240px;
-  margin-left: 300pt;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 </style>
