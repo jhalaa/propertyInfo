@@ -14,7 +14,8 @@ export default {
 <style>
 .address-text{
   padding: 10px;
-  font-size: 15px;
-  color: rgba(255, 0, 0, 0.5);
+  font-size: 18px;
+  color: #015249;
+  background-color: #00b09b;
 }
 </style>

@@ -20,7 +20,8 @@ footer{
   background-color: rgb(0,219,182);
 }
 .footer-text{
-  padding: 10px;
+  margin-top: 10px;
+  padding: 5px;
   font-size: 15px;
   color: rgba(255, 0, 0, 0.5);
 }
