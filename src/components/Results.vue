@@ -2,8 +2,8 @@
   <div>
     <Address/>
     <div class="row-md">
-      <Tile  text="stats" class="col-md-4 col-md-offset-2"/>
-      <Tile  text="eval" class="col-md-4 col-md-offset-2"/>
+      <Tile  :details="apiResponse.property" text="Details" class="col-md-4 col-md-offset-2"/>
+      <Tile  :details="apiResponse.assessment" text="Assessment" class="col-md-4 col-md-offset-2"/>
     </div>
   </div>
 </template>
