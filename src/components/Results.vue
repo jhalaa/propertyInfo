@@ -4,6 +4,7 @@
     <div class="row-md">
       <Tile  :details="apiResponse.property" text="Details" class="col-md-4 col-md-offset-2"/>
       <Tile  :details="apiResponse.assessment" text="Assessment" class="col-md-4 col-md-offset-2"/>
+      <img src='http://www.sustainability.vic.gov.au/-/media/SV-WEB-2017-IMAGES/You-and-Your-Home/Building-and-renovating/Planning-and-design/Renovations-for-specific-house-types/Weatherboard-house/weatherboard-sketch-straight-web-2.jpg&h=697&w=1303?la=en&hash=E83A65D089CF2905A08DB5A595C8B523ADE8DA99'>
     </div>
   </div>
 </template>
@@ -61,5 +62,9 @@ header{
 }
 .glyphicon{
   font-size: 30px;
+}
+img {
+  height: 240px;
+  margin-left: 300pt;
 }
 </style>
