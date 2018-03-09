@@ -1,7 +1,7 @@
 <template>
   <div class="address-text container-fluid">
-    <!-- Hard coded -> need to refactor later -->
-    483 Bright St, San Francisco, CA 94132
+    <span>{{this.$store.getters.getLine1}},</span>
+    <span>{{this.$store.getters.getPin}}</span>
   </div>
 </template>
 

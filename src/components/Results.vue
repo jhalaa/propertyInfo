@@ -13,6 +13,7 @@
 import Address from './Address'
 import Tile from './Tile'
 import axios from 'axios'
+
 export default {
   components: {
     Address,
@@ -32,8 +33,8 @@ export default {
         password: 'pSroA51xnkAzelsQMizDXhjwvKnWM0p8'
       },
       params: {
-        address: '483+Bright+St',
-        zipcode: 94132
+        address: this.$store.getters.getLine1,
+        zipcode: this.$store.getters.getPin
       },
       url: 'https://cors-anywhere.herokuapp.com/https://api.housecanary.com/v2/property/details'
     })
