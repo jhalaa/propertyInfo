@@ -2,7 +2,7 @@
   <header>
     <div class="heading">
       Certain Lending
-      <span class="pull-right glyphicon glyphicon-home"/>
+      <router-link to="/"><span class="pull-right glyphicon glyphicon-home"/></router-link>
     </div>
   </header>
 </template>
