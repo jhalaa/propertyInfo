@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jhalaa/propertyInfo.svg?branch=master)](https://travis-ci.org/jhalaa/propertyInfo)
+
 # certainlending
 
 > A property info website. Hosted on https://vigilant-joliot-7370f8.netlify.com/
