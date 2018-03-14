@@ -1,9 +1,15 @@
 <template>
   <footer class="footer navbar-fixed-bottom">
     <div class="row-md">
-      <router-link to="/about"><div class="footer-text col-md-2 col-md-offset-2">About</div></router-link>
-      <router-link to="/contact"><div class="footer-text col-md-2 col-md-offset-2">Contact Us</div></router-link>
-      <router-link to="/about"><div class="footer-text col-md-2 col-md-offset-2">Social Media</div></router-link>
+      <router-link to="/about">
+        <div class="footer-text col-md-2 col-md-offset-2">About</div>
+      </router-link>
+      <router-link to="/contact">
+        <div class="footer-text col-md-2 col-md-offset-2">Contact Us</div>
+      </router-link>
+      <router-link to="/about">
+        <div class="footer-text col-md-2 col-md-offset-2">Social Media</div>
+      </router-link>
     </div>
   </footer>
 </template>

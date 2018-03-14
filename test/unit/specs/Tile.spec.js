@@ -6,7 +6,7 @@ describe('Tile.vue', () => {
     const Constructor = Vue.extend(Tile)
     const vm = new Constructor().$mount()
     expect(vm.$el.className)
-      .to.equal('tile container')
+      .to.equal('tile panel panel-default')
   })
 
   it('should display correct text in props', () => {
