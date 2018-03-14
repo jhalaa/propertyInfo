@@ -5,10 +5,5 @@ install:
   - npm install
 script:
   - npm test
-
-machine:
-  environment:
-    CC_TEST_REPORTER_ID: db85f74898e5718c116a69ad917dcd6307e9f9561f2f28880226917cf0deb681
-
 after_success:
-  - codeclimate-test-reporter < ./test/unit/coverage/lcov.info
+  - CODECLIMATE_REPO_TOKEN=db85f74898e5718c116a69ad917dcd6307e9f9561f2f28880226917cf0deb681 ./node_modules/codeclimate-test-reporter/bin/codeclimate.js < ./test/unit/coverage/lcov.info

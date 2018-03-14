@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/jhalaa/propertyInfo.svg?branch=master)](https://travis-ci.org/jhalaa/propertyInfo)
-
-[![Maintainability](https://api.codeclimate.com/v1/badges/96b14b4e9fc973024637/maintainability)](https://codeclimate.com/github/jhalaa/propertyInfo/maintainability)
+[![Build Status](https://travis-ci.org/jhalaa/propertyInfo.svg?branch=master)](https://travis-ci.org/jhalaa/propertyInfo) [![Maintainability ](https://api.codeclimate.com/v1/badges/96b14b4e9fc973024637/maintainability)](https://codeclimate.com/github/jhalaa/propertyInfo/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/96b14b4e9fc973024637/test_coverage)](https://codeclimate.com/github/jhalaa/propertyInfo/test_coverage)
 
 # certainlending
 
