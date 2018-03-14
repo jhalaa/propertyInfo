@@ -10,14 +10,5 @@ machine:
   environment:
     CC_TEST_REPORTER_ID: db85f74898e5718c116a69ad917dcd6307e9f9561f2f28880226917cf0deb681
 
-dependencies:
-  post:
-    - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-    - chmod +x ./cc-test-reporter
-
-test:
-  pre:
-    - ./cc-test-reporter before-build
-
-  post:
-    - ./cc-test-reporter after-build --exit-code $EXIT_CODE
+after_success:
+  - codeclimate-test-reporter < ./test/unit/coverage/lcov.info
