@@ -19,4 +19,11 @@ describe('Tile.vue', () => {
     expect(vm.$el.textContent.replace(/[\n\r]+|[\s]{2,}/g, ' ').trim())
       .to.equal('hi')
   })
+
+  it('should call appropriate method on to text transform', () => {
+    const Constructor = Vue.extend(Tile)
+    const vm = new Constructor().$mount()
+    expect(Tile.methods.textTransform('hello'))
+      .to.equal('Hello')
+  })
 })
